@@ -777,7 +777,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
   margin-bottom: 0;
   margin-top: 20px;
   /* color: var(--white); */
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 .dark-paragraph {
@@ -1706,6 +1706,14 @@ body,
   position: absolute;
   right: 0;
   bottom: 0;
+}
+
+.aboutimg {
+  width: 43rem;
+}
+
+.team-img {
+  width: 40rem;
 }
 
 .about-area .thumb .bottom img {
