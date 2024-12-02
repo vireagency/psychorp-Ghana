@@ -3763,3 +3763,46 @@ footer .f-items ul {
   background: url(assets/img/preloader.gif) center no-repeat #fff;
   text-align: center;
 }
+
+/*Custom*/
+.logo-wide {
+  width: 7rem;
+}
+
+.logo-small {
+  width: 4rem;
+  height:3rem;
+}
+
+.thematics-areas h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.thematic-box {
+    background: #f4faff; /* Light Blue */
+    border-left: 6px solid #019cf4;
+    padding: 20px;
+    margin-bottom: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.thematic-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bg-light-blue { background-color: #e6f7ff; }
+.bg-medium-blue { background-color: #a6d6f4; }
+.bg-dark-blue { background-color: #5aaae0; }
+.bg-deep-blue { background-color: #2c91d2; }
+
+.thematics-box h4 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.thematics-box i {
+    font-size: 1.5rem;
+    color: #019cf4;
+}
