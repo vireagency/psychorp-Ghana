@@ -3691,6 +3691,7 @@ footer .f-items ul.social li.linkedin a {
 
 footer .f-items img {
   margin-bottom: 25px;
+  width: 40rem;
 }
 
 footer .f-items ul {
@@ -3806,3 +3807,37 @@ footer .f-items ul {
     font-size: 1.5rem;
     color: #019cf4;
 }
+
+.about-stats {
+    background-color: #f8f9fa;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.stat-bubble {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+.stat-bubble h3 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.stat-bubble p {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
